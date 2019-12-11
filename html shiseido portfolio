@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    @@include("partials/head.html", {
+      "title": "Dashkit"
+    })
+  </head>
+  <body>
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content">
+
+
+
+      <!-- HEADER -->
+      <div class="header">
+
+              <!-- Image -->
+              <img src="assets/img/covers/profile-cover-1.jpg" class="header-img-top" alt="...">
+
+              <div class="container-fluid">
+
+                <!-- Body -->
+                <div class="header-body mt-n5 mt-md-n6">
+                  <div class="row align-items-end"></div>
+
+
+                      <!-- Title -->
+                      </h1>
+
+                    </div>
+                    <div class="col-12 col-md-auto mt-2 mt-md-0 mb-md-3">
+
+                      <!-- Button -->
+
+                    </div>
+                  </div> <!-- / .row -->
+                  <div class="row align-items-center">
+                    <div class="col">
+
+                    </div>
+                  </div>
+                </div> <!-- / .header-body -->
+
+              </div>
+            </div>
+
+      <!-- CARDS -->
+      <div class="container">
+        <div class="row mt-6">
+          <div class="col col-lg-4 text-center">
+            <div class="avatar avatar-xxl mb-4">
+              <img src="assets/img/avatars/profiles/Photo profil.jpg" alt="..." class="avatar-img rounded-circle ">
+            </div>
+            <h1>Nora EL AMRI</h1>
+
+            <p>Je suis stagiaire en UX Design et originaire de Lille, mon ambition est de créer et collaborer autour de la création d’interface afin d’apporter des solutions centré sur les besoins des utilisateurs</p>
+            <a href="#!" class="btn btn-primary d-block d-md-inline-block lift">
+              Linkedin
+            </a></div>
+          <div class="col col-lg-8"></div></div></div>
+
+            <!-- Projects -->
+                 <!-- / .row -->
+                   <div class="row mt-6">
+                 <!-- Divider -->
+                 <div class="card text-center">
+                     <a href="project-overview.html">
+                       <img src="assets/img/avatars/projects/Capture.PNG" alt="..." class="card-img-top">
+                     </a>
+                     <div class="card-body">
+                       <div class="row align-items-center">
+                         <div class="col">
+
+                           <!-- Title -->
+                           <h4 class="card-title mb-2 name">
+                             <a href="project-overview.html">Projet UX Design Shiseido</a>
+                           </h4>
+                         </div></div></div></div></div>
+                <hr>
+                <hr>
+                <hr>
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>
